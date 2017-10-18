@@ -5,7 +5,7 @@ body {
 
 }
 header { 
-	margin:0;
+	margin: 0;
 
 
 } 
@@ -27,13 +27,34 @@ nav {
 
 ol { text-align: center; }
 
-footer {
-
+.container {
+	width:1000px;
+	margin: auto;
+	padding-top: 10px;
 }
 
-.section
+.nav {
+	margin-top: 10px;
+}
 
-.class
+.section {
+	background-color: pink;
+	width:50%;
+	float:left;
+}
+
+.aside {
+	background-color: green;
+	width: 50%;
+	float:left;
+}
+
+footer {
+	clear: both;
+	padding:20px;
+	margin-top: 10px;
+	background-color: chartreuse;
+}
 
 
 /** 
