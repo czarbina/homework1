@@ -22,35 +22,67 @@ nav {
 	text-align: center;
 	background-color: lightblue;
 	padding: 20px;
+	margin-top: 10px;
 
 }
-
-ol { text-align: center; }
 
 .container {
 	width:1000px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
 	padding-top: 10px;
 }
 
-.nav {
-	margin-top: 10px;
+.fatSection {
+	margin-bottom: 10px;
 }
 
 .section {
-	background-color: pink;
-	width:50%;
-	float:left;
+    background-color: pink;
+    width: 495px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#article {
+    background-color: purple;
+    height: 150px;
+    width: 85%;
+    margin: auto;
+
+}
+
+#hThings {
+    background-color: orange;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+
+}
+
+#pThings {
+    background-color: yellow;
+    margin: auto;
+    margin-top: 20px;
+    width: 85%;
+    padding: 10px;
+
 }
 
 .aside {
-	background-color: green;
-	width: 50%;
-	float:left;
+    background-color: green;
+    width: 495px;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 footer {
-	clear: both;
+	clear:both;
 	padding:20px;
 	margin-top: 10px;
 	background-color: chartreuse;
